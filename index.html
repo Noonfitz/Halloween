@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HALLOWEEN</title>
+    <!-- CSS-->
+    <link rel="stylesheet" href="./style.css">
+    <!--font-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!--navigation bar-->
+    <nav class="navbar">
+    <a href="#"><img src="./images/logo.jpg" alt="logo" class="logo"></a>
+    <ul class="link-bar">
+        <li><a href="#"></a>Home</li>
+        <li><a href="#"></a>Explore</li>
+        <li><a href="#"></a>Tours</li>
+        <li><a href="#"></a>About</li>
+        <li ><a href="#"class="btn">Contact</a></li>
+    </ul>
+    <img src="./images/menu-button.png" alt="menu-button" class="stripes-button">
+    </nav>
+
+
+<!--top container-->
+    <header>
+      <div class="head-container">
+<h2>Explore The Halloween Around U.S.A</h2>
+<h1>HALLOWEEN EVENTS & NEWS</h1>
+<a href="https://en.wikipedia.org/wiki/Halloween" class="btn">Learn More</a>
+
+      </div>  
+    </header>
+
+
+    <section class="halloween-events">
+        <div class="events">
+            <h1>Upcoming Events</h1>
+            <h5>Classify by Time Zones</h3>
+        </div>
+
+        <div class="row">
+            <div class="col">
+              <img src="./images/houston.jpg" alt="houston-halloween" >
+              <h4>Haunted Hourses</h4>  
+              <p>Looking for an adrenaline rush or just want to get into the “spirit” of the season, check out these haunted houses.</p>
+              <a href="https://www.visithoustontexas.com/things-to-do/attractions/halloween-in-houston/" class="btn">Learn More</a>
+            </div>
+            <div class="col">
+              <img src="./images/boston.jpg" alt="boston-halloween" >
+              <h4>Make Way for (Costumed) Ducklings</h4>
+              <p>Even the famous Make Way for Ducklings statues in the Boston Public Garden get into the act - usually about a week before the big event. </p>
+              <a href="https://www.boston-discovery-guide.com/halloween-boston.html" class="btn">Learn More</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <script>
+        const menuBtn=document.querySelector('.stripes-button');
+        const navBar= document.querySelector('.link-bar');
+
+        menuBtn.addEventListener("click",function(){
+            navBar.classList.toggle('mobile-button');
+        });
+    </script>
+</body>
+</html>
