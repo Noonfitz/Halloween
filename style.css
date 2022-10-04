@@ -103,11 +103,6 @@ ul{
     display: none;
 }
 
-.slime 
-{
-    padding: 30px 30px;
-    margin: 30px 30px;
-}
 
 /*events*/
 section{
@@ -159,7 +154,11 @@ p{
     padding:0px 50px;
 }
 
-
+/* footer */
+footer {
+    height:200px; 
+    text-align:center; 
+}
 
 /* for mobile device*/
 
