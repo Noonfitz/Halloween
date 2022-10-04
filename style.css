@@ -15,7 +15,6 @@ header{
     display:flex;
     align-items:center;
     justify-content: center;
-    
 }
 
 body , html{
@@ -75,9 +74,6 @@ ul{
 .head-container h2{
     font-size:3vmin;
     font-style: italic;
-   
-    
-    
 }
 .head-container h1{
     font-size: 5vmin;
@@ -106,6 +102,19 @@ ul{
     display: none;
 }
 /*events*/
+.events {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    background: url(./images/green.png);
+    background: url(
+https://media.geeksforgeeks.org/wp-content/uploads/20200326181026/wave3.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+}
 section{
     width:80%;
     margin:70px auto;
