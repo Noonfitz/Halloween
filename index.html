@@ -13,15 +13,19 @@
 <body>
 
 <!--navigation bar-->
-    <nav class="navbar">
-    <a href="#"><img src="./images/logo.jpg" alt="logo" class="logo"></a>
-    <ul class="link-bar">
-        <li><a href="#"></a>Home</li>
-        <li><a href="#"></a>Explore</li>
-        <li><a href="#"></a>Tours</li>
-        <li><a href="#about"></a>About</li>
-        <li><a href="#"class="btn"> Contact</a> </li>
-    </ul>
+<nav class="navbar">
+  <a href="#"><img src="./images/logo.jpg" alt="logo" class="logo"></a>
+  <ul class="link-bar">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Explore</a></li>
+      <li><a href="#">Tours</a></li>
+      <li><a href="#about" class="btn">About</a></li>
+      <ul>
+        <li><a href="#contactone"> Noon's Contact</a></li>
+        <li><a href="#contactwo"> Val's Contact</a> </li>
+      </ul>
+      
+  </ul>
     <img src="./images/menu-button.png" alt="menu-button" class="stripes-button">
     </nav>
 
@@ -96,12 +100,72 @@
 
     </section>
 
+
+    <div class="form">
+      <form>
+          <!--inputs have required attribute-->
+
+          <figure>
+              <figcaption>
+                  
+              </figcaption>
+          </figure>
+              
+      </form>
+  </div>
+
+
+    <form>
+      <section id="contactone">
+        <h3>Noon's Contact info</h3>
+        <label for="name">Your name:</label>
+        <br>
+        <input id="name" type="text" required/>
+        <br>
+        <label for="email"> Your email:</label>
+        <br>
+        <input id="email" type="text" required/> 
+        <br>
+        <label for="phone">Phone number:</label>
+        <br>
+        <input id="phone" type="text" required/>
+        <br>           
+        <label for="message"> Your message:</label>
+        <br>
+        <input id="message" type="text"  minlength="5" maxlength="450" required/>
+        <br>
+            <a href=""> 
+            <button>send email</button></a>
+      </section>
+      
+         <section id="contactwo">
+           <h3>Val's Contact info</h3>
+           <label for="name">Your name:</label>
+          <br>
+           <input id="name" type="text" required/>
+          <br>
+           <label for="email"> Your email:</label>
+          <br>
+           <input id="email" type="text" required/> 
+          <br>
+          <label for="phone">Phone number:</label>
+          <br>
+          <input id="phone" type="text" required/>
+          <br>           
+           <label for="message"> Your message:</label>
+          <br>
+           <input id="message" type="text"  minlength="5" maxlength="450" required/>
+          <br>
+           <a href="">
+            <button>send email</button></a>
+      </section>
+      </form>
+  
     <footer>
       <h1 id="about">About Us</h1>
       <p> Valeri Guerrero is one of the authors of the website that enjoys everything that Halloween has to offer.</p>
-      <a href=" https://valeriguerrero.github.io/"></a>
+      <a href=" https://valeriguerrero.github.io/">Val's website</a>
       <p>@ October 2, 2022 Val & Noon</p>
-      
     </footer>
 
     <script>
