@@ -20,9 +20,10 @@
       <li><a href="#">Explore</a></li>
       <li><a href="#">Tours</a></li>
       <li><a href="#about" class="btn">About</a></li>
+      <li><a href="#" class="btn">Contact</a></li>
       <ul>
-        <li><a href="#contactone"> Noon's Contact</a></li>
-        <li><a href="#contactwo"> Val's Contact</a> </li>
+        <li><a href="#contactone" class="nv"> Noon's Contact</a></li>
+        <li><a href="#contactwo" class="nv"> Val's Contact</a> </li>
       </ul>
       
   </ul>
@@ -40,6 +41,8 @@
       </div>  
     </header>
 
+<!--slime picture-->
+<img src="images/slime1.png" alt="slime image" id="slime">
 
     <section class="halloween-events">
         <div class="events">
@@ -101,31 +104,33 @@
     </section>
 
     <form>
-      <section id="contactone">
-        <div class="one"> </div>
-        <h3>Noon's Contact info</h3>
-        <label for="name">Your Name:</label>
-        <br>
-        <input id="name" type="text" required/>
-        <br>
-        <label for="email"> E-mail:</label>
-        <br>
-        <input id="email" type="text" required/> 
-        <br>
-        <label for="phone">Phone Number:</label>
-        <br>
-        <input id="phone" type="text" required/>
-        <br>           
-        <label for="message"> Message:</label>
-        <br>
-        <input id="message" type="text"  minlength="5" maxlength="450" required/>
-        <br>
-            <a href=""> 
-            <button>send email</button></a>
+      <section class="contact">
+        <div class="one"> 
+          <h4 id="contactone"> Contact Noon</h4>
+          <label for="name">Your Name:</label>
+          <br>
+          <input id="name" type="text" required/>
+          <br>
+          <label for="email"> E-mail:</label>
+          <br>
+          <input id="email" type="text" required/> 
+          <br>
+          <label for="phone">Phone Number:</label>
+          <br>
+          <input id="phone" type="text" required/>
+          <br>           
+          <label for="message"> Message:</label>
+          <br>
+          <input id="message" type="text"  minlength="5" maxlength="450" required/>
+          <br>
+          <a href=""> 
+          <button>send email</button></a>
+        </div>
       </section>
       
-         <section id="contactwo">
-           <h3>Val's Contact info</h3>
+         <section class="contact">
+          <div class="two">
+           <h4 id="contactwo"> Contact Val</h4>
            <label for="nametwo">Your name:</label>
           <br>
            <input id="nametwo" type="text" required/>
@@ -144,6 +149,7 @@
           <br>
            <a href="">
             <button>send email</button></a>
+            </div>
       </section>
       </form>
   
@@ -151,6 +157,7 @@
       <h1 id="about">About Us</h1>
       <p> Valeri Guerrero is one of the authors of the website that enjoys everything that Halloween has to offer.</p>
       <a href=" https://valeriguerrero.github.io/" target="_blank"> Val's website</a>
+      <!--NOON put your about info-->
       <p>@ October 2, 2022 copyright Val & Noon</p>
     </footer>
 
