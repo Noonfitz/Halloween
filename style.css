@@ -92,11 +92,13 @@ ul{
     color:white;
 }
 
-.
+.nv {
+    border-radius: 25px;
+    color:white;
+}
 
 .btn:hover{
     background-color: #C689C6;
-   
 }
 
 .stripes-button{
@@ -167,7 +169,7 @@ p{
 .contact {
    height: 500px;
   width: 600px;
-  background-color: whitesmoke;
+  background-color: white;
   margin: auto;
   text-align: left;
   width:300px;
