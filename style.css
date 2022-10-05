@@ -18,6 +18,10 @@ header{
 
 }
 
+a:hover {
+    color: white;
+}
+
 body , html{
     overflow-x: hidden; /*hidden scroll bar left-right*/
 }
@@ -88,6 +92,8 @@ ul{
     color:white;
 }
 
+.
+
 .btn:hover{
     background-color: #C689C6;
    
@@ -102,6 +108,10 @@ ul{
     display: none;
 }
 
+#slime {
+    height: 270px;
+    width: 1450px;
+}
 
 /*events*/
 section{
@@ -154,6 +164,23 @@ p{
 }
 
 /* cotact*/
+.contact {
+   height: 500px;
+  width: 600px;
+  background-color: whitesmoke;
+  margin: auto;
+  text-align: left;
+  width:300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.one, .two {
+    width:300px;
+    display: flex;
+    flex-direction: column;    
+}
+
 
 /* footer */
 footer {
