@@ -16,20 +16,21 @@
 <nav class="navbar">
   <a href="#"><img src="./images/logo.jpg" alt="logo" class="logo"></a>
   <ul class="link-bar">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Explore</a></li>
-      <li><a href="#">Tours</a></li>
-      <li><a href="#about" class="btn">About</a></li>
-      <ul>
-        <li><a href="#" class="btn">Contact</a></li>
-        <br>
-        <li><a href="#contactone" class="nv"> Noon's Contact</a></li>
-        <li><a href="#contactwo" class="nv"> Val's Contact</a> </li>
-      </ul>
-      
+      <li><a href="#"tabindex="1" >Home</a></li>
+      <li><a href="#"tabindex="1">Explore</a></li>
+      <li><a href="#"tabindex="1">About</a></li>
+      <div class="dropdown">
+           <button class="dropbtn">Contact</button>
+            <div class="dropdown-contact">
+                <a href="#contactone"  class="nv"> Noon's Contact</a>
+                <a href="#contactwo" class="nv"> Val's Contact</a>
+            </div>
+      </div>
   </ul>
     <img src="./images/menu-button.png" alt="menu-button" class="stripes-button">
     </nav>
+    
+  
 
 
 <!--top container-->
@@ -42,15 +43,56 @@
       </div>  
     </header>
 
-<!--slime picture-->
-<img src="images/slime1.png" alt="slime image" id="slime">
+<!--middle-container -->
+
 
     <section class="halloween-events">
         <div class="events">
-            <h1>Upcoming Events</h1>
-            <h5>Classify by Time Zones</h5>
+            <h1>Events for family</h1>
         </div>
 
+        <div class="row row1">
+          <div class="col">
+            <img src="./images/for kids-houston.jpg" alt="houston-halloween">
+            <h4>Pumpkin patches</h4>  
+            <p>From classic fall events like the Houston Zoo Boo and Hocus Pocus Pops to out-of-this-world fun.</p>
+            <a href="https://mommypoppins.com/top-Halloween-events-near-Houston" class="btn">Learn More</a>
+          </div>
+          <div class="col">
+            <img src="./images/for kids-boston.jpg" alt="boston-halloween" >
+            <h4>Franklin Park Zoo</h4>
+            <p>Go wild with your costumes this Halloween in Boston at Zoo Howl at the Franklin Park Zoo.</p>
+            <a href="https://mommypoppins.com/boston-kids/golist/best-things-to-do-in-boston-in-october-with-kids" class="btn">Learn More</a>
+          </div>
+        </div>
+      
+       
+      <div class="events">
+        <h1>Events for Adults</h1>
+    </div>
+
+
+
+    <div class="row">
+      <div class="col">
+        <img src="./images/houston.jpg" alt="houston-halloween">
+        <h4>Haunted Houses</h4>  
+        <p>Looking for an adrenaline rush or just want to get into the “spirit” of the season, check out these haunted houses.</p>
+        <a href="https://www.visithoustontexas.com/things-to-do/attractions/halloween-in-houston/" class="btn">Learn More</a>
+      </div>
+      <div class="col">
+        <img src="./images/boston-adult.jpg" alt="boston-halloween" >
+        <h4>Ghosts and Gravestones Trolley Tour </h4>
+        <p>Explore the spooky side of Boston on the Trolley of Terror, you’ll hear tales of the Boston Strangler, the murders and executions</p>
+        <a href="https://www.timeout.com/boston/things-to-do/halloween-in-boston" class="btn">Learn More</a>
+      </div>
+    </div>
+
+
+
+      </section>
+
+ <!--      
         <div class="row">
             <div class="col">
               <img src="./images/houston.jpg" alt="houston-halloween">
@@ -101,9 +143,11 @@
             </div>
         </div>
 
+--> 
+   
 
-    </section>
 
+    <!-- contect-section -->
     <form>
       <section class="contact">
         <div class="one"> 
@@ -122,10 +166,9 @@
           <br>           
           <label for="message"> Message:</label>
           <br>
-          <input id="message" type="text"  minlength="5" maxlength="450" required/>
+          <input id="messagetwo" type="text"  minlength="5" maxlength="450" required>
           <br>
-          <a href=""> 
-          <button>send email</button></a>
+          <a href=""><button class="btn">Send Email</button></a>
         </div>
       </section>
       
@@ -146,22 +189,26 @@
           <br>           
            <label for="messagetwo"> Message:</label>
           <br>
-           <input id="messagetwo" type="text"  minlength="5" maxlength="450" required/>
+           <input id="messagetwo" type="text"  minlength="5" maxlength="450" required>
           <br>
-           <a href="">
-            <button>send email</button></a>
+           <a href=""><button class="btn">Send Email</button></a>
             </div>
       </section>
       </form>
   
+
+  <!--footer-->
+
     <footer>
-      <h1 id="about">About Us</h1>
+      <h4 id="about">About Us</h4>
       <p> Valeri Guerrero is one of the authors of the website that enjoys everything that Halloween has to offer.</p>
-      <a href=" https://valeriguerrero.github.io/" target="_blank"> Val's website</a>
-      <!--NOON put your about info-->
+      <a href=" https://valeriguerrero.github.io/" target="_blank"> Val's website</a><br>
+      <a href=" https://noonfitz.github.io/ProfessionalPortfolio1/" target="_blank"> Noon's website</a>
       <p>@ October 2, 2022 copyright Val & Noon</p>
     </footer>
 
+
+<!--javescript for mobile responsive-->
     <script>
         const menuBtn=document.querySelector('.stripes-button');
         const navBar= document.querySelector('.link-bar');
