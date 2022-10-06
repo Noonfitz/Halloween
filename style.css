@@ -26,6 +26,10 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    background-color: #C689C6;
+}
+
 /*nav bar*/
 ul{
     list-style: none;
@@ -169,10 +173,7 @@ ul{
     display: none;
 }
 
-#slime {
-    height: 270px;
-    width: 1450px;
-}
+
 
 /*events*/
 section{
@@ -193,6 +194,10 @@ section{
   
    
 }
+
+
+
+
 
 .row{
     display: flex;
@@ -250,7 +255,7 @@ p{
   
 }
 
-    .one, .two {
+.one, .two {
         width:300px;
         display: flex;
         flex-direction: column; 
@@ -262,15 +267,47 @@ p{
     margin:0 auto;
 }
 
+form{
+    display: flex;
+    
+}
+button{
+    background-color: purple;
+    border: none;
+    border-radius: 25px;
+    color: white;
+  padding:10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 
+/*about*/
 
-
+.about{
+    padding-top:100px;
+    text-align: center;
+}
 
 
 /* footer */
 footer {
-    height:200px; 
+    background-image:url(./images/footer.png);
+    background-position:bottom;
+    background-size:cover;
+    height:360px; 
     text-align:center; 
+   margin-top:100px;
+   
+}
+
+.footer-text{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color:whitesmoke;
 }
 
 /* for mobile device*/
@@ -302,6 +339,10 @@ footer {
         margin:30px auto;
     }
 
+    .col img:hover{
+        transition: all;
+    }
+
     .logo{
         position:absolute;
         top:20px;
@@ -328,4 +369,7 @@ footer {
         margin:25px auto;
     }
  
+    form{
+        display: block;
+    }
 }
