@@ -26,9 +26,7 @@ a{
     text-decoration: none;
 }
 
-a:hover{
-    background-color: #C689C6;
-}
+
 
 /*nav bar*/
 ul{
@@ -59,16 +57,17 @@ ul{
 
 }
 
-.link-bar li{
-    margin:auto 20px;
-    cursor:pointer;
-}
-
 .link-bar li:hover{
     color:#C689C6;
     
     
 }
+
+.link-bar li{
+    margin:auto 20px;
+    cursor:pointer;
+}
+
 
 /* a tags stay the same color */
 
@@ -156,6 +155,10 @@ ul{
     background: purple;
     border-radius: 25px;
     color:white;
+}
+
+.btn:hover{
+    background-color: #C689C6;
 }
 
 .nv {
@@ -282,6 +285,9 @@ button{
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+}
+button:hover{
+    background-color: #C689C6;
 }
 
 /*about*/
