@@ -6,7 +6,7 @@
     box-sizing:border-box;
     font-family:'Poppins', sans-serif;;
 }
-header{
+header {
     width:100vw;
     height:100vh;
     background-image: url(./images/halloween-head.webp);
@@ -114,7 +114,16 @@ ul{
     height: 270px;
     width: 1450px;
 }
-
+/*Events in hou & bos */
+.houbos {
+    width: 1000px;
+    height: 1000px;
+    display: grid;
+    grid-template: 30% 30% 30% / 30% 30% ;
+    justify-content: space-around;
+    gap: 1% 20px;
+    align-items: center;
+}
 /*events*/
 section{
     width:80%;
