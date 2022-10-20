@@ -242,6 +242,16 @@ p{
     padding:0px 50px;
 }
 
+
+/*video*/
+
+
+.video .kids-video{
+   display: block;
+    margin: 0 auto;
+    background-color: #777;
+}
+
 /* cotact*/
 .contact {
    
