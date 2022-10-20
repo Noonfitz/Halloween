@@ -252,6 +252,8 @@ p{
     background-color: #777;
 }
 
+
+
 /* cotact*/
 .contact {
    
@@ -335,7 +337,7 @@ button:hover{
 /*about*/
 
 .about{
-    padding-top:100px;
+    padding-top:150px;
     text-align: center;
 }
 
@@ -422,6 +424,20 @@ footer {
     }
 
     .two h4{
-        margin-top:9vh;
+        margin-top:20vh;
+    }
+
+    .kids-video{
+        position:relative;
+        width: 400px;
+        height: 300px;
+    }
+
+    .about{
+    margin-top: 9vh;
+   
+    }
+    .authors p{
+        font-size: 3vmin;
     }
 }
