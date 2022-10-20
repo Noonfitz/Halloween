@@ -264,8 +264,37 @@ p{
     display: flex;
     flex-direction: column;
   
+}
 
-  
+
+.contact-horizon{
+    border-style: dotted none none none;
+  width:6%;
+  color:purple;
+  border-width:10px;
+
+
+}
+
+.about hr{
+    margin:0 auto;
+}
+
+hr .contact-horizon{
+    padding-top: 10px;
+}
+
+
+.authors{
+    margin-bottom: 30px;
+}
+
+.authors p{
+    font-size: 1rem;
+}
+
+.authors-links{
+ margin-top: 30px;
 }
 
 .one, .two {
@@ -273,11 +302,14 @@ p{
         display: flex;
         flex-direction: column; 
     
-    
 }
 
 .one a, .two a{
     margin:0 auto;
+}
+
+.contact-section{
+    margin-top:70px;
 }
 
 form{
@@ -328,7 +360,7 @@ footer {
 
 /* for mobile device*/
 
-@media only screen and (max-width:850px){
+@media only screen and (max-width:900px){
     .navbar{
        padding:0;
     }
@@ -387,5 +419,9 @@ footer {
  
     form{
         display: block;
+    }
+
+    .two h4{
+        margin-top:9vh;
     }
 }
